@@ -3,6 +3,21 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="AmazonTest.AmazonSigninTest">
+        <methods>
+          <include name="InitializeDriver"/>
+          <include name="beforeTestCase"/>
+          <include name="status"/>
+          <include name="openUrl"/>
+          <include name="quitBrowser"/>
+          <include name="Amazonlogin"/>
+        </methods>
+      </class> <!-- AmazonTest.AmazonSigninTest -->
+      <class name="AmazonTest.AmazonHomePage">
+        <methods>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- AmazonTest.AmazonHomePage -->
       <class name="AmazonTest.AmazonTabsTest">
         <methods>
           <include name="InitializeDriver"/>
@@ -12,11 +27,22 @@
           <include name="Amazontext"/>
         </methods>
       </class> <!-- AmazonTest.AmazonTabsTest -->
+      <class name="AmazonTest.AmazonSearchPageTest">
+        <methods>
+          <include name="InitializeDriver"/>
+          <include name="beforeTestCase"/>
+          <include name="status"/>
+          <include name="openUrl"/>
+          <include name="quitBrowser"/>
+          <include name="searching"/>
+        </methods>
+      </class> <!-- AmazonTest.AmazonSearchPageTest -->
       <class name="AmazonTest.AmazonCartTest">
         <methods>
           <include name="InitializeDriver"/>
           <include name="beforeTestCase"/>
           <include name="status"/>
+          <include name="openUrl"/>
           <include name="quitBrowser"/>
           <include name="AmazonCart"/>
         </methods>

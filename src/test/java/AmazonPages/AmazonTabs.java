@@ -28,15 +28,6 @@ public class AmazonTabs extends AmazonHomePage{
         test.log(LogStatus.PASS, "AmazonBooks button clicked successfully");
         
     }
-     
-    public void AmazonNewReleases()  {
-        driver.findElement(By.xpath("//a[contains(text(),'New Releases')]")).click();
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
-        test.log(LogStatus.PASS, "AmazonNewReleases button clicked successfully");
-
-
-
-       }
     
     
     public void AmazonCustomerService()  {
@@ -76,23 +67,6 @@ public class AmazonTabs extends AmazonHomePage{
 
 
        }
-    
-    public void AmazonFashion()  {
-        driver.findElement(By.xpath("//a[contains(text(),'Fashion')]")).click();
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
-        test.log(LogStatus.PASS, "AmazonFashion button clicked successfully");
-        
-        
-    }
-    
-    public void AmazonReturnsandOrders() {
-    	
-    	driver.findElement(By.xpath("//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[3]/span[2]")).click();
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
-        test.log(LogStatus.PASS, "AmazonReturnsandOrders button clicked successfully");
-        
-    	
-    }
     
     
 	

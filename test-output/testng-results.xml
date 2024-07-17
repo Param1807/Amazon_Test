@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="17" passed="7" failed="2" skipped="0">
+<testng-results ignored="8" total="17" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-16T16:21:09 IST" name="Default suite" finished-at="2024-07-16T16:25:39 IST" duration-ms="269060">
+  <suite started-at="2024-07-17T10:30:50 IST" name="Suite" finished-at="2024-07-17T10:31:34 IST" duration-ms="43827">
     <groups>
     </groups>
-    <test started-at="2024-07-16T16:21:09 IST" name="Default test" finished-at="2024-07-16T16:25:39 IST" duration-ms="269060">
+    <test started-at="2024-07-17T10:30:50 IST" name="Test" finished-at="2024-07-17T10:31:34 IST" duration-ms="43827">
       <class name="AmazonTest.AmazonCartTest">
-        <test-method is-config="true" signature="InitializeDriver()[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:08 IST" name="InitializeDriver" finished-at="2024-07-16T16:21:09 IST" duration-ms="1428" status="PASS">
+        <test-method signature="AmazonCart()[pri:0, instance:AmazonTest.AmazonCartTest@20140db9]" started-at="2024-07-17T10:31:27 IST" name="AmazonCart" finished-at="2024-07-17T10:31:28 IST" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InitializeDriver -->
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:09 IST" name="beforeTestCase" finished-at="2024-07-16T16:21:10 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- AmazonCart -->
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonCartTest@20140db9]" started-at="2024-07-17T10:31:27 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:27 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,92 +22,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method signature="AmazonCart()[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:10 IST" name="AmazonCart" finished-at="2024-07-16T16:21:20 IST" duration-ms="10038" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[4]/div[1]/span[2]"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PARAMDESKTOP', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e503cf79891daaa2e74b82614f1fae15
-*** Element info: {Using=xpath, value=//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[4]/div[1]/span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[4]/div[1]/span[2]"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PARAMDESKTOP', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e503cf79891daaa2e74b82614f1fae15
-*** Element info: {Using=xpath, value=//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[4]/div[1]/span[2]}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at AmazonPages.AmazonCart.AmazonCartPage(AmazonCart.java:25)
-at AmazonTest.AmazonCartTest.AmazonCart(AmazonCartTest.java:12)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AmazonCart -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:20 IST" name="status" finished-at="2024-07-16T16:21:20 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonCartTest@20140db9]" started-at="2024-07-17T10:31:28 IST" name="status" finished-at="2024-07-17T10:31:28 IST" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AmazonCart status=FAILURE method=AmazonCartTest.AmazonCart()[pri:0, instance:AmazonTest.AmazonCartTest@f09733f] output={null}]]]>
+                <![CDATA[[TestResult name=AmazonCart status=SUCCESS method=AmazonCartTest.AmazonCart()[pri:0, instance:AmazonTest.AmazonCartTest@20140db9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:20 IST" name="openUrl" finished-at="2024-07-16T16:21:37 IST" duration-ms="17289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:20 IST" name="beforeTestCase" finished-at="2024-07-16T16:21:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonCartTest@20140db9]" started-at="2024-07-17T10:31:28 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,56 +44,60 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:21:37 IST" name="status" finished-at="2024-07-16T16:21:37 IST" duration-ms="21" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonCartTest@20140db9]" started-at="2024-07-17T10:31:28 IST" name="openUrl" finished-at="2024-07-17T10:31:34 IST" duration-ms="6146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonCartTest@20140db9]" started-at="2024-07-17T10:31:34 IST" name="status" finished-at="2024-07-17T10:31:34 IST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonCartTest@f09733f] output={null}]]]>
+                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonCartTest@20140db9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AmazonTest.AmazonCartTest@f09733f]" started-at="2024-07-16T16:25:39 IST" name="quitBrowser" finished-at="2024-07-16T16:25:39 IST" duration-ms="257" status="PASS">
+      </class> <!-- AmazonTest.AmazonCartTest -->
+      <class name="AmazonTest.AmazonHomePage">
+        <test-method is-config="true" signature="InitializeDriver()[pri:0, instance:AmazonTest.AmazonHomePage@f09733f]" started-at="2024-07-17T10:30:49 IST" name="InitializeDriver" finished-at="2024-07-17T10:30:50 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonHomePage@f09733f]" started-at="2024-07-17T10:30:50 IST" name="beforeTestCase" finished-at="2024-07-17T10:30:50 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void AmazonTest.AmazonHomePage.openUrl() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonHomePage@f09733f]" started-at="2024-07-17T10:30:50 IST" name="openUrl" finished-at="2024-07-17T10:30:57 IST" duration-ms="7104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonHomePage@f09733f]" started-at="2024-07-17T10:30:57 IST" name="status" finished-at="2024-07-17T10:30:57 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonHomePage@f09733f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AmazonTest.AmazonHomePage@f09733f]" started-at="2024-07-17T10:31:34 IST" name="quitBrowser" finished-at="2024-07-17T10:31:34 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- AmazonTest.AmazonCartTest -->
-      <class name="AmazonTest.AmazonHomePage">
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonHomePage@6c1a5b54]" started-at="2024-07-16T16:21:37 IST" name="beforeTestCase" finished-at="2024-07-16T16:21:37 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void AmazonTest.AmazonHomePage.openUrl() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestCase -->
-        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonHomePage@6c1a5b54]" started-at="2024-07-16T16:21:37 IST" name="openUrl" finished-at="2024-07-16T16:21:44 IST" duration-ms="7150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonHomePage@6c1a5b54]" started-at="2024-07-16T16:21:44 IST" name="status" finished-at="2024-07-16T16:21:44 IST" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonHomePage@6c1a5b54] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
       </class> <!-- AmazonTest.AmazonHomePage -->
       <class name="AmazonTest.AmazonSearchPageTest">
-        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6]" started-at="2024-07-16T16:21:44 IST" name="openUrl" finished-at="2024-07-16T16:21:50 IST" duration-ms="6090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6]" started-at="2024-07-16T16:21:44 IST" name="beforeTestCase" finished-at="2024-07-16T16:21:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951]" started-at="2024-07-17T10:31:18 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,22 +108,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6]" started-at="2024-07-16T16:21:50 IST" name="status" finished-at="2024-07-16T16:21:50 IST" duration-ms="32" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951]" started-at="2024-07-17T10:31:18 IST" name="openUrl" finished-at="2024-07-17T10:31:25 IST" duration-ms="7629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951]" started-at="2024-07-17T10:31:25 IST" name="status" finished-at="2024-07-17T10:31:25 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6] output={null}]]]>
+                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-        <test-method signature="searching()[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6]" started-at="2024-07-16T16:21:50 IST" name="searching" finished-at="2024-07-16T16:21:53 IST" duration-ms="2094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searching -->
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6]" started-at="2024-07-16T16:21:50 IST" name="beforeTestCase" finished-at="2024-07-16T16:21:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951]" started-at="2024-07-17T10:31:25 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:25 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,11 +134,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6]" started-at="2024-07-16T16:21:53 IST" name="status" finished-at="2024-07-16T16:21:53 IST" duration-ms="13" status="PASS">
+        <test-method signature="searching()[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951]" started-at="2024-07-17T10:31:25 IST" name="searching" finished-at="2024-07-17T10:31:27 IST" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searching -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951]" started-at="2024-07-17T10:31:27 IST" name="status" finished-at="2024-07-17T10:31:27 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searching status=SUCCESS method=AmazonSearchPageTest.searching()[pri:0, instance:AmazonTest.AmazonSearchPageTest@1c7696c6] output={null}]]]>
+                <![CDATA[[TestResult name=searching status=SUCCESS method=AmazonSearchPageTest.searching()[pri:0, instance:AmazonTest.AmazonSearchPageTest@60099951] output={null}]]]>
               </value>
             </param>
           </params>
@@ -217,7 +151,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- status -->
       </class> <!-- AmazonTest.AmazonSearchPageTest -->
       <class name="AmazonTest.AmazonSigninTest">
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSigninTest@60099951]" started-at="2024-07-16T16:21:53 IST" name="beforeTestCase" finished-at="2024-07-16T16:21:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6]" started-at="2024-07-17T10:31:09 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:09 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,26 +162,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonSigninTest@60099951]" started-at="2024-07-16T16:21:53 IST" name="openUrl" finished-at="2024-07-16T16:22:00 IST" duration-ms="6963" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6]" started-at="2024-07-17T10:31:09 IST" name="openUrl" finished-at="2024-07-17T10:31:15 IST" duration-ms="5989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSigninTest@60099951]" started-at="2024-07-16T16:22:00 IST" name="status" finished-at="2024-07-16T16:22:00 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6]" started-at="2024-07-17T10:31:15 IST" name="status" finished-at="2024-07-17T10:31:15 IST" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonSigninTest@60099951] output={null}]]]>
+                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-        <test-method signature="Amazonlogin()[pri:0, instance:AmazonTest.AmazonSigninTest@60099951]" started-at="2024-07-16T16:22:00 IST" name="Amazonlogin" finished-at="2024-07-16T16:22:03 IST" duration-ms="3351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazonlogin -->
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSigninTest@60099951]" started-at="2024-07-16T16:22:00 IST" name="beforeTestCase" finished-at="2024-07-16T16:22:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6]" started-at="2024-07-17T10:31:15 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:15 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -258,11 +188,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSigninTest@60099951]" started-at="2024-07-16T16:22:03 IST" name="status" finished-at="2024-07-16T16:22:03 IST" duration-ms="30" status="PASS">
+        <test-method signature="Amazonlogin()[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6]" started-at="2024-07-17T10:31:15 IST" name="Amazonlogin" finished-at="2024-07-17T10:31:18 IST" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazonlogin -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6]" started-at="2024-07-17T10:31:18 IST" name="status" finished-at="2024-07-17T10:31:18 IST" duration-ms="27" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Amazonlogin status=SUCCESS method=AmazonSigninTest.Amazonlogin()[pri:0, instance:AmazonTest.AmazonSigninTest@60099951] output={null}]]]>
+                <![CDATA[[TestResult name=Amazonlogin status=SUCCESS method=AmazonSigninTest.Amazonlogin()[pri:0, instance:AmazonTest.AmazonSigninTest@1c7696c6] output={null}]]]>
               </value>
             </param>
           </params>
@@ -271,7 +205,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- status -->
       </class> <!-- AmazonTest.AmazonSigninTest -->
       <class name="AmazonTest.AmazonTabsTest">
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9]" started-at="2024-07-16T16:22:03 IST" name="beforeTestCase" finished-at="2024-07-16T16:22:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54]" started-at="2024-07-17T10:30:57 IST" name="beforeTestCase" finished-at="2024-07-17T10:30:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,86 +216,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9]" started-at="2024-07-16T16:22:03 IST" name="openUrl" finished-at="2024-07-16T16:22:11 IST" duration-ms="8147" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54]" started-at="2024-07-17T10:30:57 IST" name="openUrl" finished-at="2024-07-17T10:31:04 IST" duration-ms="6101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9]" started-at="2024-07-16T16:22:11 IST" name="status" finished-at="2024-07-16T16:22:11 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54]" started-at="2024-07-17T10:31:04 IST" name="status" finished-at="2024-07-17T10:31:04 IST" duration-ms="34" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9] output={null}]]]>
+                <![CDATA[[TestResult name=openUrl status=SUCCESS method=AmazonHomePage.openUrl()[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-        <test-method signature="Amazontext()[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9]" started-at="2024-07-16T16:22:11 IST" name="Amazontext" finished-at="2024-07-16T16:25:38 IST" duration-ms="206880" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=126.0.6478.127)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PARAMDESKTOP', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e503cf79891daaa2e74b82614f1fae15]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=126.0.6478.127)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PARAMDESKTOP', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e503cf79891daaa2e74b82614f1fae15
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at AmazonPages.AmazonTabs.AmazonNewReleases(AmazonTabs.java:33)
-at AmazonTest.AmazonTabsTest.Amazontext(AmazonTabsTest.java:14)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazontext -->
-        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9]" started-at="2024-07-16T16:22:11 IST" name="beforeTestCase" finished-at="2024-07-16T16:22:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54]" started-at="2024-07-17T10:31:04 IST" name="beforeTestCase" finished-at="2024-07-17T10:31:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -372,11 +242,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestCase -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9]" started-at="2024-07-16T16:25:38 IST" name="status" finished-at="2024-07-16T16:25:39 IST" duration-ms="505" status="PASS">
+        <test-method signature="Amazontext()[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54]" started-at="2024-07-17T10:31:04 IST" name="Amazontext" finished-at="2024-07-17T10:31:09 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazontext -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54]" started-at="2024-07-17T10:31:09 IST" name="status" finished-at="2024-07-17T10:31:09 IST" duration-ms="32" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Amazontext status=FAILURE method=AmazonTabsTest.Amazontext()[pri:0, instance:AmazonTest.AmazonTabsTest@20140db9] output={null}]]]>
+                <![CDATA[[TestResult name=Amazontext status=SUCCESS method=AmazonTabsTest.Amazontext()[pri:0, instance:AmazonTest.AmazonTabsTest@6c1a5b54] output={null}]]]>
               </value>
             </param>
           </params>
@@ -384,6 +258,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- status -->
       </class> <!-- AmazonTest.AmazonTabsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

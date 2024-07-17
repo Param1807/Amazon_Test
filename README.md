@@ -26,8 +26,8 @@ AmazonTabs and AmazonTabstest-It includes more functions init:
     AmazonElectronics();
     AmazonTodaysDeals();
     AmazonBestSellers();
-    AmazonFashion();
-    AmazonReturnsandOrders();
+    
+    
 
 AmazonHomePage to run the home page of the amazon.in and driver to extends to the others files.
 AmazonSearchPage and AmazonSearchPageTest

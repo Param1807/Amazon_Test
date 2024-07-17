@@ -22,7 +22,7 @@ public class AmazonCart extends AmazonHomePage{
     }
     
     public void AmazonCartPage()  {
-        driver.findElement(By.xpath("//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[4]/div[1]/span[2]")).click();
+        driver.findElement(By.xpath("//span[@id='nav-cart-count']")).click();
         driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
         test.log(LogStatus.FAIL, "AmazonPrime Failed");
         
